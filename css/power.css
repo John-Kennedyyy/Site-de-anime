@@ -191,3 +191,11 @@ main {
     background: transparent;
     border: 1px solid #ffffff ;
 }
+
+.texto-p {
+    margin-bottom: -100px;
+}
+
+.logo-mid {
+    margin-bottom: -90px;
+}

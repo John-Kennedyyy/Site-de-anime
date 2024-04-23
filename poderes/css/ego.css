@@ -61,7 +61,7 @@ button:hover {
     height: inherit;
     position: fixed;
     inset: 0;
-    background: linear-gradient(109deg, rgb(84, 25, 133) 15%, rgb(42, 7, 71) 50%, rgba(20, 0, 24, 0.99));
+    background: linear-gradient(109deg, rgba(60, 84, 128, 0.87) 15%, rgba(15, 55, 131, 0.719) 50%, rgba(9, 31, 73, 0.747) 85%);
 }
 
 /* header */
@@ -98,7 +98,7 @@ header img {
 }
 
 .navigation_link:hover {
-    color: #1d012e;
+    color: #2246b9;
 }
 
 .navigation_link::after {
@@ -109,7 +109,7 @@ header img {
 
     width: 60%;
     height: 1px;
-    background: #1d012e;
+    background: #233b88;
 
     transform: scaleX(0);
     transform-origin: right;
@@ -162,7 +162,7 @@ main {
 
 .main_info p {
     font-size: 18px;
-    margin: 20px 0 28px;
+    margin-right: 1800px;
 }
 
 .main_info div {
@@ -183,11 +183,28 @@ main {
     transform: skew(-9deg);
 }
 
-.main_info div a {
-    background: #1d012e;
-}
-
 .main_info div button {
     background: transparent;
-    border: 1px solid #ffffff ;
+    border: 1px solid #eeff00 ;
+}
+
+.texto-p {
+    position: absolute;
+    text-align: center;
+    max-width: 80%; 
+    margin-right: 700px;
+    margin-left: 400px;
+}
+
+.img-texto {
+    width: 400px;
+    max-width: 80%; 
+    margin-right: 700px;
+    margin-left: 535px;
+    margin-bottom: 630px;
+}
+
+.highlighted-text {
+    color: #0041C2;
+    font-weight: bold;
 }

@@ -61,7 +61,7 @@ button:hover {
     height: inherit;
     position: fixed;
     inset: 0;
-    background: linear-gradient(109deg, rgba(231, 223, 223, 0.99) 15%, rgb(151, 78, 78) 50%, rgb(0, 0, 0) 85%);
+    background: linear-gradient(109deg, rgba(177, 174, 174, 0.99) 15%, rgb(151, 78, 78) 50%, rgb(0, 0, 0) 85%);
 }
 
 /* header */
