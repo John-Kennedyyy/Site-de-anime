@@ -183,11 +183,22 @@ main {
     transform: skew(-9deg);
 }
 
-.main_info div a {
-    background: #1d012e;
+.texto-p {
+    position: absolute;
+    max-width: 80%; 
+    margin-right: 700px;
+    margin-left: 400px;
 }
 
-.main_info div button {
-    background: transparent;
-    border: 1px solid #ffffff ;
+.img-texto {
+    width: 400px;
+    max-width: 80%; 
+    margin-right: 700px;
+    margin-left: 535px;
+    margin-bottom: 520px;
+}
+
+.highlighted-text {
+    color: #a63bec;
+    font-weight: bold;
 }
