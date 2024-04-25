@@ -61,7 +61,7 @@ button:hover {
     height: inherit;
     position: fixed;
     inset: 0;
-    background: linear-gradient(109deg, rgba(60, 84, 128, 0.87) 15%, rgba(15, 55, 131, 0.719) 50%, rgba(9, 31, 73, 0.747) 85%);
+    background: linear-gradient(109deg, rgba(68, 77, 201, 0.99) 15%, rgba(180, 21, 21, 0.7) 50%, rgba(184, 22, 22, 0.99) 85%);
 }
 
 /* header */
@@ -98,7 +98,7 @@ header img {
 }
 
 .navigation_link:hover {
-    color: #2246b9;
+    color: #ff0000;
 }
 
 .navigation_link::after {
@@ -109,7 +109,7 @@ header img {
 
     width: 60%;
     height: 1px;
-    background: #233b88;
+    background: #ff0000;
 
     transform: scaleX(0);
     transform-origin: right;
@@ -162,7 +162,7 @@ main {
 
 .main_info p {
     font-size: 18px;
-    margin: 20px 0 28px;
+    margin-right: 1800px;
 }
 
 .main_info div {
@@ -183,41 +183,28 @@ main {
     transform: skew(-9deg);
 }
 
-.main_info div a {
-    background: #3f65e0;
-}
-
 .main_info div button {
     background: transparent;
     border: 1px solid #eeff00 ;
 }
 
-.img-isagi {
-    width: 700px;
+.texto-p {
+    position: absolute;
+    max-width: 80%; 
+    margin-right: 700px;
+    margin-left: 400px;
+    margin-bottom: 150px;
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
+.img-texto {
+    width: 400px;
+    max-width: 80%; 
+    margin-right: 700px;
+    margin-left: 535px;
+    margin-bottom: 630px;
+}
 
-    header img {
-        width: 25%;
-    }
-
-    .main_info {
-        width: 90%;
-        max-width: none;
-    }
-
-    .main_info p {
-        font-size: 13px;
-        margin-left: 30px;
-    }
-
-    .img-isagi {
-        width: 1px;
-        max-width: none;
-    }
+.highlighted-text {
+    color: #eeff00;
+    font-weight: bold;
 }
